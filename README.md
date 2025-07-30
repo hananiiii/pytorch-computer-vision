@@ -17,5 +17,35 @@ A beginner-friendly computer vision project using PyTorch. This notebook demonst
 - How to evaluate accuracy on test data
 - How to organize a basic PyTorch project
 
+## for the cnn model 
+-Built a Custom CNN Model:
+
+2 Convolutional Blocks
+
+ReLU activations
+
+MaxPooling for downsampling
+
+Fully connected (linear) layer for classification
+
+ -Tracked Model Architecture:
+
+Input shape: (1, 28, 28)
+
+Conv Block 1 ➝ Output shape: (10, 14, 14)
+
+Conv Block 2 ➝ Output shape: (10, 7, 7)
+
+Flatten ➝ Input to Linear: 10*7*7 = 490
+- Training & Evaluation:
+
+Used CrossEntropyLoss and Adam optimizer
+
+Trained for multiple epochs
+
+Achieved solid accuracy on test data
+
+-Logged training and test loss + accuracy
+
 
 
